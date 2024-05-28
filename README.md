@@ -1,49 +1,6 @@
-<h1 align="center">Welcome to Revista</h1>
+<h1 align="center">photoby BLOG</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.9.5-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Photography Portfolio/Blog
-
-### ✨ [Demo](https://www.erfianugrah.com)
-
-## Install
-
-```sh
-bun install
-```
-
-## Internal Usage
-
-```sh
-bun run dev
-bun run build && bun run preview
-```
-
-## External Usage
-
-Use Cloudflare Pages or Deno or [build a Docker image](/README.Docker.md), refer to [this](https://docs.astro.build/en/guides/deploy/) for more options.
-
-## How it all works
-
-- [Components readme](src/Components-README.md)
-- [Layouts readme](src/Layouts-README.md)
-- [Pages readme](src/Pages-README.md)
-- [Content readme](src/Content-README.md)
-
-## Author
-
-👤 **Erfi Anugrah**
-
-* Website: https://www.erfianugrah.com/
-* Github: [@erfianugrah](https://github.com/erfianugrah)
-* LinkedIn: [@erfianugrah](https://linkedin.com/in/erfianugrah)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+> Photography Blog
