@@ -1,51 +1,39 @@
-name: Deploy
+name: Deploy to GitHub Pages
 
 on:
+  # 'main' 브랜치로 푸시할 때마다 워크플로를 트리거합니다.
+  # 다른 브랜치 이름을 사용하시나요? `main`을 브랜치 이름으로 바꾸세요.
   push:
-    branches: main
-  pull_request:
-    branches: main
+    branches: [ main ]
+  # GitHub의 Actions 탭에서 이 워크플로를 수동으로 실행할 수 있습니다.
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
-    name: Deploy
+  build:
     runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
-
     steps:
-      - name: Clone repository
+      - name: Checkout your repository using git
         uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v2
+        # with:
+          # path: . # 저장소 내 Astro 프로젝트의 루트 위치입니다. (선택 사항)
+          # node-version: 20 # 사이트를 빌드하는 데 사용해야 하는 특정 버전의 Node입니다. 기본값은 20입니다. (선택 사항)
+          # package-manager: pnpm@latest # 종속성을 설치하고 사이트를 빌드하는 데 사용해야 하는 노드 패키지 관리자입니다. lockfile을 기반으로 자동으로 감지됩니다. (선택 사항)
 
-      - name: Install Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-
-      # Use oven-sh/setup-bun to install Bun
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
-
-      # Cache Bun dependencies
-      - name: Cache Bun dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.bun
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
-          restore-keys: |
-            ${{ runner.os }}-bun-
-
-      - name: Install dependencies and build with Bun
-        run: |
-          bun install
-          bun run build
-
-      - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
-        with:
-          project: "revista-3"
-          entrypoint: "https://deno.land/std@0.188.0/http/file_server.ts" # 📝 Update the entrypoint if necessary
-          root: "dist" # 📝 Update the root if necessary
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
