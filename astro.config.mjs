@@ -8,9 +8,9 @@ import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://photoby.github.io",
+  site: "https://photoby.xyz",
   image: {
-    domains: ["", "photoby.github.io", "cdn.erfianugrah.com"],
+    domains: ["", "photoby.xyz", "cdn.erfianugrah.com"],
     service: {
       entrypoint: 'astro/assets/services/sharp',
       config: {
