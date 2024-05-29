@@ -26,7 +26,8 @@ document.addEventListener('astro:page-load', function () {
     // Create and append image elements to the masonry div
     items.forEach((item) => {
       let imageDiv = document.createElement('div');
-      imageDiv.style.cssText = 'break-inside: avoid; margin-bottom: 1em; padding-bottom: 1em;'; // Added paddingBottom
+      imageDiv.style.cssText =
+        'break-inside: avoid; margin-bottom: 1em; padding-bottom: 1em;'; // Added paddingBottom
 
       let anchor = document.createElement('a');
       anchor.href = item.url;

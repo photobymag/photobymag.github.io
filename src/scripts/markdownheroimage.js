@@ -1,6 +1,8 @@
 function handlePageLoad() {
   const imageElement = document.getElementById('backgroundImage');
-  const backgroundImageElement = document.getElementById('backgroundImageElement');
+  const backgroundImageElement = document.getElementById(
+    'backgroundImageElement'
+  );
 
   if (imageElement && backgroundImageElement) {
     const setBgImage = () => {
