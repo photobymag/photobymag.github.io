@@ -45,7 +45,6 @@ const {
   is404Page = false,
 } = Astro.props;
 
-const isPostPage = !!Astro.props.frontmatter; // 마크다운 포스트 페이지 여부 판단
 ---
 
 
@@ -74,14 +73,9 @@ const isPostPage = !!Astro.props.frontmatter; // 마크다운 포스트 페이�
     <meta property="og:site_name" content={site_name || 'photoby'} />
     <meta name="og:image" content={image || `${baseUrl}${metaImage?.src}`} />
     <meta name="og:url" content={Astro.url} />
-    
-    {isPostPage && (
-      <>
-        <meta name="article:author" content={author} />
-        <meta name="article:published_time" content={pubDate} />
-        <meta name="article:modified_time" content={updatedDate} />
-      </>
-    )}
+    {author && <meta name="article:author" content={author} />}
+    {pubDate && <meta name="article:published_time" content={pubDate} />}
+    {updatedDate && <meta name="article:modified_time" content={updatedDate} />}
     
     <!-- Twitter meta data -->
     <meta name="twitter:card" content="summary_large_image" />
