@@ -23,6 +23,7 @@ const favicon_webp = await getImage({
   src: import.meta.env.BASE_URL + 'images/favicon.png',
   alt: 'favicon',
   // inferSize: true,
+  title: 'favicon',
   width: '400',
   height: '400',
   decoding: 'async',
@@ -45,12 +46,13 @@ const {
 } = Astro.props;
 ---
 
-<html class="bg-[rgb(245,245,245)] dark:bg-[rgb(34,33,37)]" lang="ko">
+<html class="bg-[rgb(245,245,245)] dark:bg-[rgb(34,33,37)]" lang="ko-KR">
   <head>
     <!-- Global Metadata -->
     <meta charset="utf-8" />
     <link rel="icon" type="image/webp" href={favicon_webp.src} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="robots" href="/robots.txt" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     
@@ -76,11 +78,12 @@ const {
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content={Astro.site} />
     <meta property="twitter:url" content={Astro.url} />
-    <meta name="twitter:card" content={image || `${baseUrl}${metaImage?.src}`} />
     <meta name="twitter:title" content={title || pageTitle} />
     <meta name="twitter:description" content={description || metaDescription} />
-    <meta name="twitter:image" content={image || `${baseUrl}${metaImage?.src}`} />
-
+    <meta name="twitter:image" content={image || `${baseUrl}${metaImage?.src}`} /> 
+    <meta name="twitter:site" content="@photoby_xyz" /> 
+    <meta name="twitter:creator" content="@photoby_xyz" /> 
+    
     <!-- Google tag (gtag.js) -->
     <script
       type="text/partytown"
