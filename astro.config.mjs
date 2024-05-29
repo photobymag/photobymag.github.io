@@ -5,6 +5,8 @@ import tailwind from "@astrojs/tailwind";
 import markdoc from "@astrojs/markdoc";
 import remarkGfm from 'remark-gfm';
 import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
+import partytown from '@astrojs/partytown'
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,7 +20,13 @@ export default defineConfig({
       },
     },
   },
-  integrations: [sitemap(), mdx({
+  integrations: [
+    partytown({
+			config: {
+			  forward: ["dataLayer.push"],
+			},
+    }),
+    sitemap(), mdx({
     syntaxHighlight: 'shiki',
     shikiConfig: {
       theme: 'dracula'

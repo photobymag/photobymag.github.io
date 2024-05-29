@@ -60,6 +60,16 @@ const { image, description, author, pubDate, updatedDate, title, site_name, alt,
     <meta name="twitter:description" content={ description || metaDescription } />
     <meta name="twitter:image" content={ image || `${baseUrl}${metaImage?.src}` }/>
     <title>{ pageTitle } </title>
+
+    <!-- Google tag (gtag.js) -->
+    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-SF30CSKMPK"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SF30CSKMPK');
+    </script>
     <ViewTransitions />
   </head>
   <body
