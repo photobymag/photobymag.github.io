@@ -19,7 +19,7 @@ const metaImage = await getImage({
 });
 
 const favicon_webp = await getImage({
-  src: "https://cdn.erfianugrah.com/ea_favicon.png",
+  src: import.meta.env.BASE_URL + "images/favicon.png",
   alt: "favicon",
   // inferSize: true,
   width: "400",
