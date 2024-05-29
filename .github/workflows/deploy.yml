@@ -1,10 +1,14 @@
 name: Deploy to GitHub Pages
 
 on:
+  # 'main' 브랜치로 푸시할 때마다 워크플로를 트리거합니다.
+  # 다른 브랜치 이름을 사용하시나요? `main`을 브랜치 이름으로 바꾸세요.
   push:
-    branches: [main]  # main 브랜치로 푸시될 때마다 워크플로우가 실행됩니다.
-  workflow_dispatch:  # 수동으로 워크플로우를 실행할 수 있습니다.
+    branches: [main]
+  # GitHub의 Actions 탭에서 이 워크플로를 수동으로 실행할 수 있습니다
+  workflow_dispatch:
 
+# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -15,41 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@v4  # 리포지토리를 체크아웃합니다.
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20  # Node.js 버전을 설정합니다.
-
-      - name: Install dependencies
-        run: npm install  # 프로젝트 종속성을 설치합니다.
-
-      - name: Build your site
-        run: npm run build  # 사이트를 빌드합니다.
-
-      - name: Run Prettier
-        run: |
-          npx prettier --write dist/**/*.html  # Prettier로 HTML 파일을 포맷팅합니다.
-
-      - name: Commit and push formatted HTML
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/**/*.html
-          git commit -m "Format HTML files with Prettier"
-          git push  # 포맷팅된 파일을 커밋하고 푸시합니다.
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v2
+        # with:
+        # path: . # 저장소 내 Astro 프로젝트의 루트 위치입니다. (선택 사항)
+        # node-version: 20 # 사이트를 빌드하는 데 사용해야 하는 특정 버전의 Node입니다. 기본값은 20입니다. (선택 사항)
+        # package-manager: pnpm@latest # 종속성을 설치하고 사이트를 빌드하는 데 사용해야 하는 노드 패키지 관리자입니다. lockfile을 기반으로 자동으로 감지됩니다. (선택 사항)
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: github-pages  # GitHub Pages 환경을 설정합니다.
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4  # 리포지토리를 다시 체크아웃합니다.
-
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4  # GitHub Pages에 배포합니다.
+        uses: actions/deploy-pages@v4
