@@ -1,18 +1,17 @@
 import { defineConfig } from 'astro/config';
-import sitemap from "@astrojs/sitemap";
-import mdx from "@astrojs/mdx";
-import tailwind from "@astrojs/tailwind";
-import markdoc from "@astrojs/markdoc";
+import sitemap from '@astrojs/sitemap';
+import mdx from '@astrojs/mdx';
+import tailwind from '@astrojs/tailwind';
+import markdoc from '@astrojs/markdoc';
 import remarkGfm from 'remark-gfm';
 import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
-import partytown from '@astrojs/partytown'
-
+import partytown from '@astrojs/partytown';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://photoby.xyz",
+  site: 'https://photoby.xyz',
   image: {
-    domains: ["", "photoby.xyz", "cdn.erfianugrah.com"],
+    domains: ['', 'photoby.xyz', 'cdn.erfianugrah.com'],
     service: {
       entrypoint: 'astro/assets/services/sharp',
       config: {
@@ -22,26 +21,30 @@ export default defineConfig({
   },
   integrations: [
     partytown({
-			config: {
-			  forward: ["dataLayer.push"],
-			},
+      config: {
+        forward: ['dataLayer.push'],
+      },
     }),
-    sitemap(), mdx({
-    syntaxHighlight: 'shiki',
-    shikiConfig: {
-      theme: 'dracula'
-    },
-    gfm: false
-  }), tailwind(), markdoc()],
+    sitemap(),
+    mdx({
+      syntaxHighlight: 'shiki',
+      shikiConfig: {
+        theme: 'dracula',
+      },
+      gfm: false,
+    }),
+    tailwind(),
+    markdoc(),
+  ],
   markdown: {
-    remarkPlugins: [remarkGfm, remarkReadingTime]
+    remarkPlugins: [remarkGfm, remarkReadingTime],
   },
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport'
+    defaultStrategy: 'viewport',
   },
   experimental: {
-    clientPrerender: true
+    clientPrerender: true,
     // directRenderScript: true
   },
 });

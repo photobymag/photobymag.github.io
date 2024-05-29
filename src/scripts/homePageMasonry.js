@@ -11,7 +11,7 @@ document.addEventListener('astro:page-load', function () {
       return {
         image: image,
         alt: alt[index],
-        url: urls[index]
+        url: urls[index],
       };
     });
 
@@ -24,7 +24,7 @@ document.addEventListener('astro:page-load', function () {
     let masonryElement = document.querySelector('#masonry');
 
     // Create and append image elements to the masonry div
-    items.forEach(item => {
+    items.forEach((item) => {
       let imageDiv = document.createElement('div');
       imageDiv.style.cssText = 'break-inside: avoid; margin-bottom: 1em; padding-bottom: 1em;'; // Added paddingBottom
 

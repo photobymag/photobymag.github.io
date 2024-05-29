@@ -1,25 +1,23 @@
 ---
-import Hamburger from "./Hamburger.astro";
-import Navigation from "./Navigation.astro";
-import ThemeIcon from "./ThemeIcon.astro";
-import { getImage } from "astro:assets";
+import Hamburger from './Hamburger.astro';
+import Navigation from './Navigation.astro';
+import ThemeIcon from './ThemeIcon.astro';
+import { getImage } from 'astro:assets';
 const { is404Page = false } = Astro.props; // Get the prop from Astro.props
 
 const favicon_avif = await getImage({
-  src: import.meta.env.BASE_URL + "images/favicon.png",
-  alt: "favicon",
+  src: import.meta.env.BASE_URL + 'images/favicon.png',
+  alt: 'favicon',
   // inferSize: true,
-  width: "400",
-  height: "400",
-  decoding: "async",
-  format: "avif"
+  width: '400',
+  height: '400',
+  decoding: 'async',
+  format: 'avif',
 });
 ---
 
 <header class="mb-[30px]">
-  <nav
-    class="flex items-center justify-between w-full h-full relative align-center"
-  >
+  <nav class="flex items-center justify-between w-full h-full relative align-center">
     {
       !is404Page && (
         <div>

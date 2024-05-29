@@ -7,7 +7,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "1"
+          cpus: '1'
           memory: 128M
     volumes:
       - /mnt/user/data/revista/log:/var/log
@@ -16,7 +16,7 @@ services:
     expose:
       - 4321
     networks:
-     revista:
+      revista:
         ipv4_address: 172.19.23.2
 
 networks:

@@ -1,7 +1,7 @@
 ---
 const { title, url, image, alt, description, pubDate, positionx, positiony } = Astro.props;
-import { Image } from "astro:assets";
-const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
+import { Image } from 'astro:assets';
+const publishedDate = pubDate.toDateString().split(' ').slice(1).join(' ');
 ---
 
 <div
@@ -14,7 +14,7 @@ const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
           <Image
             src={image}
             alt={alt}
-            // inferSize
+            inferSize
             width={1280}
             height={720}
             decoding="async"
@@ -28,14 +28,9 @@ const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
       </div>
     )
   }
-  <div
-    id="description "
-    class="sm:w-2/3 flex flex-col justify-start space-y-4 mb-6 md:mt-10"
-  >
+  <div id="description " class="sm:w-2/3 flex flex-col justify-start space-y-4 mb-6 md:mt-10">
     <ul class="flex-row">
-      <h2
-        class="font-overpass-mono font-bold text-xl lg:text-2xl xl:text-4xl capitalize"
-      >
+      <h2 class="font-overpass-mono font-bold text-xl lg:text-2xl xl:text-4xl capitalize">
         {title}
       </h2>
       <p class="font-inconsolata text-sm">Published on {publishedDate}</p>
@@ -43,10 +38,7 @@ const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
     <p class="font-inconsolata normal-case line-clamp-3 sm:text-base text-sm">
       {description}
     </p>
-    <a
-      href={url}
-      class="dark:prose-invert max-w-max max-h-max flex flex-row flex-shrink-0 "
-    >
+    <a href={url} class="dark:prose-invert max-w-max max-h-max flex flex-row flex-shrink-0">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-6 w-6 md:mt-10 mt-4 mb-4 bounce"
@@ -54,11 +46,8 @@ const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
         viewBox="0 0 24 24"
         stroke="currentColor"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M9 5l7 7-7 7"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"
+        ></path>
       </svg>
     </a>
     <slot />
@@ -73,21 +62,25 @@ const publishedDate = pubDate.toDateString().split(" ").slice(1).join(" ");
       background-position: var(--position-x, 30%) var(--position-y, 50%);
     }
   }
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
   }
-  40% {
-    transform: translateY(-10px);
-  }
-  60% {
-    transform: translateY(-5px);
-  }
-}
 
-a:hover svg {
-  animation: bounce 2s infinite;
-}
+  a:hover svg {
+    animation: bounce 2s infinite;
+  }
   .fade-image {
     transition: opacity 0.5s ease-in-out;
     opacity: 1;

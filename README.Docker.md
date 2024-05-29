@@ -1,6 +1,7 @@
 ### Building and running your application
 
 -- If you have issues building multi-platform:
+
 ```
 docker buildx create --name mybuilder --use --driver docker-container
 docker buildx inspect --bootstrap

@@ -1,8 +1,8 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import GetRandomImage from "../components/getRandomImage.astro";
-import { getCollection } from "astro:content";
-import { getImage } from "astro:assets";
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GetRandomImage from '../components/getRandomImage.astro';
+import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
 const allContent = await getCollection(Astro.props.directory);
 const tags = [...new Set(allContent.map((post) => post.data.tags).flat())];
 const images = allContent.map((post) => post.data.image?.src);
@@ -18,11 +18,11 @@ for (const post of allContent) {
         src: post.data.image?.src,
         alt: post.data.image?.alt,
         // inferSize: true,
-        width: "1920",
-        height: "1080",
-        decoding: "async",
-        format: "avif",
-        quality: "65"
+        width: '1920',
+        height: '1080',
+        decoding: 'async',
+        format: 'avif',
+        quality: '65',
       });
       imagesByTag[tag].push(imageAsset ? imageAsset.src : null);
     }
@@ -31,7 +31,7 @@ for (const post of allContent) {
 const { title } = Astro.props;
 ---
 
-<BaseLayout title={title} is404Page={false} >
+<BaseLayout title={title} is404Page={false}>
   <div>
     {
       tags.length === 1 ? (
