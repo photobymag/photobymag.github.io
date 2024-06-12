@@ -145,21 +145,21 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"authors": {
-"erfianugrah.mdx": {
-	id: "erfianugrah.mdx";
-  slug: "erfi";
+"photoby.mdx": {
+	id: "photoby.mdx";
+  slug: "about";
   body: string;
   collection: "authors";
   data: InferEntrySchema<"authors">
 } & { render(): Render[".mdx"] };
 };
-"short_form": {
+"magazine": {
 "2021-03-08-hypnagogia.mdx": {
 	id: "2021-03-08-hypnagogia.mdx";
   slug: "hypnagogia";
   body: string;
-  collection: "short_form";
-  data: InferEntrySchema<"short_form">
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
 };
 

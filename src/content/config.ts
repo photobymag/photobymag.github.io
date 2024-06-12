@@ -3,7 +3,7 @@ import { z, defineCollection } from 'astro:content';
 
 // 2. Define a `type` and `schema` for each collection
 
-const short_form = defineCollection({
+const magazine = defineCollection({
   type: 'content', // v2.5.0 and later
   schema: z.object({
     title: z.string(),
@@ -44,4 +44,4 @@ const authors = defineCollection({
 });
 
 // 3. Export a single `collections` object to register your collection(s)
-export const collections = { short_form, authors };
+export const collections = { magazine, authors };
