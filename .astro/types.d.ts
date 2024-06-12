@@ -145,18 +145,18 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"authors": {
-"photoby.mdx": {
-	id: "photoby.mdx";
-  slug: "about";
+"baesisi.mdx": {
+	id: "baesisi.mdx";
+  slug: "baesisi";
   body: string;
   collection: "authors";
   data: InferEntrySchema<"authors">
 } & { render(): Render[".mdx"] };
 };
 "magazine": {
-"2021-03-08-hypnagogia.mdx": {
-	id: "2021-03-08-hypnagogia.mdx";
-  slug: "hypnagogia";
+"2024-06-12-maria-svarbova.mdx": {
+	id: "2024-06-12-maria-svarbova.mdx";
+  slug: "maria-svarbova";
   body: string;
   collection: "magazine";
   data: InferEntrySchema<"magazine">
