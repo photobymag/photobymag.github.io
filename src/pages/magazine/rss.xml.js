@@ -9,7 +9,7 @@ export async function GET(context) {
   return rss({
     stylesheet: '/rss/rss.xsl',
     title: 'photoby',
-    description: 'My personal hamster wheel.',
+    description: 'Creatvie beyond picture',
     site: context.site,
     items: magazine.map((post) => ({
       title: post.data.title,
