@@ -12,7 +12,7 @@ export default defineConfig({
   site: 'https://photoby.xyz',
   compressHTML: false,
   image: {
-    domains: ['', 'photoby.xyz', 'cdn.erfianugrah.com', 'cdn.jsdelivr.net'],
+    domains: ['', 'photoby.xyz', 'cdn.jsdelivr.net'],
     service: {
       entrypoint: 'astro/assets/services/sharp',
       config: {
