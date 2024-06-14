@@ -67,7 +67,7 @@ const {
     <link rel="canonical" href={Astro.url}>
 
     <!-- Primary Meta Tags -->
-    <title>{pageTitle}</title>
+    <title>{title ? `${title} | photoby` : pageTitle}</title>
     <meta name="description" content={description || metaDescription} />
     {
       keywords && keywords.length > 0 && (
