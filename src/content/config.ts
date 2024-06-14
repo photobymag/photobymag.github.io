@@ -10,6 +10,7 @@ const magazine = defineCollection({
     tags: z.array(z.string()),
     author: z.string(),
     description: z.string(),
+    keywords: z.array(z.string()).optional(), // 키워드 필드 추가
     image: z
       .object({
         src: z.string(),

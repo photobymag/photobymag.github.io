@@ -43,7 +43,7 @@ const {
   site_name,
   alt,
   is404Page = false,
-  keywords
+  keywords = [],
 } = Astro.props;
 
 ---
@@ -69,7 +69,11 @@ const {
     <!-- Primary Meta Tags -->
     <title>{pageTitle}</title>
     <meta name="description" content={description || metaDescription} />
-    {keywords && <meta name="keywords" content={keywords} />}
+    {
+      keywords && keywords.length > 0 && (
+        <meta name="keywords" content={keywords.join(', ')} />
+      )
+    }
 
     <!-- Open Graph meta data -->
     <meta name="og:title" content={title || pageTitle} />

@@ -19,6 +19,6 @@ export async function GET(context) {
       content: sanitizeHtml(parser.render(post.body)),
       ...post.data,
     })),
-    customData: `<language>en-us</language>`,
+    customData: `<language>ko-kr</language>`,
   });
 }

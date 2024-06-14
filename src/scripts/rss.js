@@ -1,9 +1,6 @@
 function handlePageLoad() {
   const collections = [
-    '/short_form/',
-    '/long_form/',
-    '/muses/',
-    '/zeitweillig/',
+    '/magazine/',
   ];
   const currentPath = window.location.pathname;
   if (collections.includes(currentPath)) {
