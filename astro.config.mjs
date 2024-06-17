@@ -26,7 +26,11 @@ export default defineConfig({
         forward: ['dataLayer.push'],
       },
     }),
-    sitemap(),
+    sitemap({
+      lastmod: new Date(),
+    }
+
+    ),
     mdx({
       syntaxHighlight: 'shiki',
       shikiConfig: {
