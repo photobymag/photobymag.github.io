@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Tailwind CSS의 기본 스타일, 컴포넌트 클래스, 유틸리티 클래스를 불러옵니다. */
 
 @font-face {
   font-family: 'Pretendard Variable';
@@ -8,22 +9,25 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/* 'Pretendard Variable' 폰트를 정의하고, /fonts/PretendardVariable.woff2 파일에서 로드합니다. */
 
 html {
   background-color: #f2f2f2;
   font-family: sans-serif;
   height: 100%;
 }
+/* HTML 요소의 기본 배경색을 #f2f2f2로 설정하고, 기본 폰트 패밀리를 sans-serif로 설정하며, 높이를 100%로 설정합니다. */
 
 html.dark {
   background-color: rgb(34, 33, 37);
   color: #fff;
 }
+/* HTML 요소에 'dark' 클래스가 있는 경우, 배경색을 rgb(34, 33, 37)로 설정하고, 텍스트 색상을 #fff(흰색)으로 설정합니다. */
 
 .dark .nav-links a {
   color: #fff;
 }
+/* 'dark' 클래스가 있는 경우, .nav-links 내부의 a 요소의 텍스트 색상을 #fff(흰색)으로 설정합니다. */
 
 /* body {
   margin: 0 auto;
@@ -34,12 +38,15 @@ html.dark {
   display: flex;
   flex-direction: column;
 } */
+/* 주석 처리된 CSS 규칙입니다. */
 
 * {
   box-sizing: border-box;
 }
+/* 모든 요소에 대해 박스 사이징 방식을 border-box로 설정합니다. */
 
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
+/* h1 요소의 상하 마진을 1rem으로 설정하고, 폰트 크기를 2.5rem으로 설정합니다. */
