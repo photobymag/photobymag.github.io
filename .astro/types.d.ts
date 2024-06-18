@@ -161,6 +161,20 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-06-17-andres-gursky.mdx": {
+	id: "2024-06-17-andres-gursky.mdx";
+  slug: "andres-gursky";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
+"2024-06-18-andoni-beristain.mdx": {
+	id: "2024-06-18-andoni-beristain.mdx";
+  slug: "andoni-beristain";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
