@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Pretendard Variable';
-  src: url('/fonts/PretendardVariable.woff2') format('woff2')
+  src: url('/fonts/PretendardVariable.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

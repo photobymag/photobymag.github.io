@@ -1,7 +1,6 @@
 document.addEventListener('astro:page-load', () => {
   !(function (e, t) {
-    if ('object' == typeof exports && 'object' == typeof module)
-      module.exports = t();
+    if ('object' == typeof exports && 'object' == typeof module) module.exports = t();
     else if ('function' == typeof define && define.amd) define([], t);
     else {
       var n = t();
@@ -120,8 +119,7 @@ document.addEventListener('astro:page-load', () => {
                         : ((t.previous = 0), delete t.next);
                     }
                   : function () {
-                      (t.previous = n.getPreviousSlideIndex()),
-                        (t.next = n.getNextSlideIndex());
+                      (t.previous = n.getPreviousSlideIndex()), (t.next = n.getNextSlideIndex());
                     }),
             (n.i =
               o <= 2
@@ -135,8 +133,7 @@ document.addEventListener('astro:page-load', () => {
                     return -1 === i || 0 === i || 1 === i;
                   });
         }
-        'object' ===
-          ('undefined' == typeof document ? 'undefined' : w(document)) &&
+        'object' === ('undefined' == typeof document ? 'undefined' : w(document)) &&
           (((o = document.createElement('style')).className = r),
           o.appendChild(
             document.createTextNode(
@@ -153,10 +150,7 @@ document.addEventListener('astro:page-load', () => {
             return t[e] ? t[e] : r(e);
           }),
             (this.handleReceivedSourceTypeForUrl = function (e, n) {
-              if (
-                !1 === i[n] &&
-                (o--, 'invalid' !== e ? (i[n] = e) : delete i[n], 0 === o)
-              ) {
+              if (!1 === i[n] && (o--, 'invalid' !== e ? (i[n] = e) : delete i[n], 0 === o)) {
                 !(function (e, t) {
                   for (var n in t) e[n] = t[n];
                 })(t, i);
@@ -237,8 +231,7 @@ document.addEventListener('astro:page-load', () => {
               var e = 1920,
                 t = 1080;
               r.maxYoutubeDimensions &&
-                ((e = r.maxYoutubeDimensions.width),
-                (t = r.maxYoutubeDimensions.height)),
+                ((e = r.maxYoutubeDimensions.width), (t = r.maxYoutubeDimensions.height)),
                 s.runActions(e, t);
             }),
             (this.handleCustomLoad = function () {
@@ -307,9 +300,7 @@ document.addEventListener('astro:page-load', () => {
             l = c.split('?')[1];
           (r[t].src = 'https://www.youtube.com/embed/'
             .concat(
-              c.match(
-                /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/
-              )[2],
+              c.match(/^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/)[2],
               '?'
             )
             .concat(l || '')),
@@ -378,10 +369,7 @@ document.addEventListener('astro:page-load', () => {
             o = {
               isUrlYoutubeOne: function (e) {
                 var t = document.createElement('a');
-                return (
-                  (t.href = e),
-                  'www.youtube.com' === t.hostname || 'youtu.be' === t.hostname
-                );
+                return (t.href = e), 'www.youtube.com' === t.hostname || 'youtu.be' === t.hostname;
               },
               getTypeFromResponseContentType: function (e) {
                 return e.slice(0, e.indexOf('/'));
@@ -391,11 +379,7 @@ document.addEventListener('astro:page-load', () => {
             if (4 !== n.readyState) {
               if (2 === n.readyState) {
                 var e;
-                switch (
-                  o.getTypeFromResponseContentType(
-                    n.getResponseHeader('content-type')
-                  )
-                ) {
+                switch (o.getTypeFromResponseContentType(n.getResponseHeader('content-type'))) {
                   case 'image':
                     e = 'image';
                     break;
@@ -503,10 +487,7 @@ document.addEventListener('astro:page-load', () => {
           r.setAttributeNS(null, 'width', t),
             r.setAttributeNS(null, 'height', t),
             r.setAttributeNS(null, 'viewBox', n);
-          var s = document.createElementNS(
-            'http://www.w3.org/2000/svg',
-            'path'
-          );
+          var s = document.createElementNS('http://www.w3.org/2000/svg', 'path');
           return (
             s.setAttributeNS(null, 'class', ''.concat(i, 'svg-path')),
             s.setAttributeNS(null, 'd', o),
@@ -599,8 +580,7 @@ document.addEventListener('astro:page-load', () => {
                   s.appendChild(u),
                   t.appendChild(r),
                   setTimeout(function () {
-                    s.offsetWidth > 55 &&
-                      (r.style.justifyContent = 'flex-start');
+                    s.offsetWidth > 55 && (r.style.justifyContent = 'flex-start');
                   });
               })(e, o);
         }
@@ -726,9 +706,7 @@ document.addEventListener('astro:page-load', () => {
               (i.isPointering = !1);
           }),
             (this.runActions = function () {
-              i.swipedX > 0
-                ? r.runPositiveSwipedXActions()
-                : r.runNegativeSwipedXActions(),
+              i.swipedX > 0 ? r.runPositiveSwipedXActions() : r.runNegativeSwipedXActions(),
                 Y(n.container, n.slideSwipingHoverer),
                 n.container.classList.remove(s),
                 (i.isPointering = !1);
@@ -739,8 +717,7 @@ document.addEventListener('astro:page-load', () => {
             n = e.sourcePointerProps,
             o = t(J);
           this.listener = function () {
-            n.isPointering &&
-              (n.swipedX ? o.runActions() : o.runNoSwipeActions());
+            n.isPointering && (n.swipedX ? o.runActions() : o.runNoSwipeActions());
           };
         }
         function $(e) {
@@ -822,8 +799,7 @@ document.addEventListener('astro:page-load', () => {
                         ? document.mozCancelFullScreen()
                         : document.webkitExitFullscreen
                           ? document.webkitExitFullscreen()
-                          : document.msExitFullscreen &&
-                            document.msExitFullscreen();
+                          : document.msExitFullscreen && document.msExitFullscreen();
                 }),
                 (o.t = function () {
                   n.ifs ? o.x() : o.o();
@@ -896,8 +872,7 @@ document.addEventListener('astro:page-load', () => {
                   (n.changeToNext = function () {
                     o.jumpTo(i.getNextSlideIndex());
                   }))
-                : ((n.changeToPrevious = function () {}),
-                  (n.changeToNext = function () {}));
+                : ((n.changeToPrevious = function () {}), (n.changeToNext = function () {}));
             })(e),
             (function (e) {
               var t = e.componentsServices,
@@ -1018,8 +993,7 @@ document.addEventListener('astro:page-load', () => {
                   ? (o.maxSourceWidth = innerWidth)
                   : (o.maxSourceWidth = 0.9 * innerWidth),
                   (o.maxSourceHeight = 0.9 * innerHeight);
-                for (var e = 0; e < i.length; e++)
-                  i[e].d(), t[e] && t[e].adjustSize();
+                for (var e = 0; e < i.length; e++) i[e].d(), t[e] && t[e].adjustSize();
                 var n = r.previous,
                   s = r.next;
                 void 0 !== n && i[n].ne(), void 0 !== s && i[s].p();
@@ -1059,10 +1033,7 @@ document.addEventListener('astro:page-load', () => {
               })()),
               Q(e),
               (h.container = document.createElement('div')),
-              (h.container.className = ''
-                .concat(i, 'container ')
-                .concat(a, ' ')
-                .concat(g)),
+              (h.container.className = ''.concat(i, 'container ').concat(a, ' ').concat(g)),
               (function (e) {
                 var t = e.elements;
                 (t.slideSwipingHoverer = document.createElement('div')),
@@ -1122,19 +1093,14 @@ document.addEventListener('astro:page-load', () => {
               o.dispatch('onInit');
           }
           e.open = function () {
-            var n =
-                arguments.length > 0 && void 0 !== arguments[0]
-                  ? arguments[0]
-                  : 0,
+            var n = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 0,
               i = m.previous,
               a = m.current,
               d = m.next;
             (m.current = n),
               p.i || S(e),
               u.updateStageIndexes(),
-              p.i
-                ? (v.c(), v.a(), v.b(i), v.b(a), v.b(d), o.dispatch('onShow'))
-                : b(),
+              p.i ? (v.c(), v.a(), v.b(i), v.b(a), v.b(d), o.dispatch('onShow')) : b(),
               c.displaySourcesWhichShouldBeDisplayed(),
               t.setSlideNumber(n + 1),
               document.body.appendChild(h.container),
@@ -1162,10 +1128,7 @@ document.addEventListener('astro:page-load', () => {
           if ('function' == typeof Proxy) return !0;
           try {
             return (
-              Boolean.prototype.valueOf.call(
-                Reflect.construct(Boolean, [], function () {})
-              ),
-              !0
+              Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})), !0
             );
           } catch (e) {
             return !1;
@@ -1196,10 +1159,7 @@ document.addEventListener('astro:page-load', () => {
               var n = Object.prototype.toString.call(e).slice(8, -1);
               'Object' === n && e.constructor && (n = e.constructor.name);
               if ('Map' === n || 'Set' === n) return Array.from(e);
-              if (
-                'Arguments' === n ||
-                /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)
-              )
+              if ('Arguments' === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n))
                 return ie(e, t);
             })(e) ||
             (function () {
@@ -1230,13 +1190,12 @@ document.addEventListener('astro:page-load', () => {
                     'continue'
                   );
                 var o = e[t].getAttribute('data-fslightbox');
-                fsLightboxInstances[o] ||
-                  (fsLightboxInstances[o] = new FsLightbox());
+                fsLightboxInstances[o] || (fsLightboxInstances[o] = new FsLightbox());
                 var i = null;
                 '#' === n.charAt(0)
-                  ? (i = document
-                      .getElementById(n.substring(1))
-                      .cloneNode(!0)).removeAttribute('id')
+                  ? (i = document.getElementById(n.substring(1)).cloneNode(!0)).removeAttribute(
+                      'id'
+                    )
                   : (i = n),
                   fsLightboxInstances[o].props.sources.push(i),
                   fsLightboxInstances[o].elements.a.push(e[t]);
@@ -1264,10 +1223,7 @@ document.addEventListener('astro:page-load', () => {
                   l < a.length;
                   l++
                 )
-                  if (
-                    -1 === s.indexOf(a[l].name) &&
-                    'data-' === a[l].name.substr(0, 5)
-                  ) {
+                  if (-1 === s.indexOf(a[l].name) && 'data-' === a[l].name.substr(0, 5)) {
                     c[r] || (c[r] = {});
                     var u = a[l].name.substr(5);
                     c[r][u] = a[l].value;
@@ -1320,10 +1276,7 @@ document.addEventListener('astro:page-load', () => {
             }),
             (this.componentsServices = { setSlideNumber: function () {} }),
             (this.resolve = function (t) {
-              var n =
-                arguments.length > 1 && void 0 !== arguments[1]
-                  ? arguments[1]
-                  : [];
+              var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : [];
               return n.unshift(e), ee(t, oe(n));
             }),
             (this.collections = {

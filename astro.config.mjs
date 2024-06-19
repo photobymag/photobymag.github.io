@@ -23,15 +23,18 @@ export default defineConfig({
     },
   },
   integrations: [
-    partytown({ // 서드파티 스크립트를 웹 워커로 분리하여 메인 스레드 성능을 개선합니다.
+    partytown({
+      // 서드파티 스크립트를 웹 워커로 분리하여 메인 스레드 성능을 개선합니다.
       config: {
         forward: ['dataLayer.push'], // dataLayer.push 함수를 전달할 함수 목록을 지정합니다.
       },
     }),
-    sitemap({ // 웹사이트의 사이트맵을 생성합니다.
+    sitemap({
+      // 웹사이트의 사이트맵을 생성합니다.
       lastmod: new Date(), // 사이트맵의 마지막 수정 날짜를 현재 날짜로 설정합니다.
     }),
-    mdx({ // Markdown 파일을 JSX로 렌더링할 수 있게 합니다.
+    mdx({
+      // Markdown 파일을 JSX로 렌더링할 수 있게 합니다.
       syntaxHighlight: 'shiki', // 구문 강조 기능으로 Shiki를 사용합니다.
       shikiConfig: {
         theme: 'dracula', // Shiki의 테마를 'dracula'로 설정합니다.

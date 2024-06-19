@@ -1,7 +1,5 @@
 document.addEventListener('astro:page-load', () => {
-  const imageContainers = document.querySelectorAll(
-    '.masonry .image-container'
-  );
+  const imageContainers = document.querySelectorAll('.masonry .image-container');
 
   imageContainers.forEach((container) => {
     const imageLink = container.querySelector('.image-link');

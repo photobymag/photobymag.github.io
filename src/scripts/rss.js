@@ -1,7 +1,5 @@
 function handlePageLoad() {
-  const collections = [
-    '/magazine/',
-  ];
+  const collections = ['/magazine/'];
   const currentPath = window.location.pathname;
   if (collections.includes(currentPath)) {
     const rssLink = document.getElementById('rss-link');

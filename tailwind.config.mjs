@@ -10,7 +10,7 @@ export default {
       fontFamily: {
         'overpass-mono': ['"Overpass Mono Variable"', 'sans-serif'],
         inconsolata: ['"Inconsolata Variable"', 'sans-serif'],
-        'pretendard': ['Pretendard Variable', 'sans-serif'],
+        pretendard: ['Pretendard Variable', 'sans-serif'],
       },
       // 사용할 폰트 패밀리를 확장합니다. 'overpass-mono', 'inconsolata', 'pretendard' 폰트를 추가합니다.
 
