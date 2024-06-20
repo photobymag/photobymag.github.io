@@ -2,17 +2,14 @@
 const { images, alt, url, tag } = Astro.props;
 ---
 
-<!-- 반응형 이미지를 렌더링하는 div 요소 -->
 <div id="randomimage" class="relative group border-0" data-images={images} data-alt={alt}>
   <a href={url}>
-    <!-- 반응형 이미지 태그 -->
     <img
-      class="w-full h-auto object-cover object-center" <!-- 이미지 너비는 부모 요소에 맞추고, 높이는 자동 조절 -->
-      style="object-position: 40% 35%;" <!-- 이미지 위치 조정 -->
-      loading="lazy" <!-- 지연 로딩을 통해 로딩 속도 개선 -->
-      decoding="async" <!-- 비동기 디코딩을 통해 디코딩 속도 개선 -->
+      class="w-full h-auto object-cover object-center"
+      style="object-position: 40% 35%;"
+      loading="lazy"
+      decoding="async"
     />
-    <!-- 이미지 위에 표시될 텍스트 -->
     <p class="absolute inset-0 flex items-center justify-center text-[rgb(245,245,245)] text-2xl xl:text-4xl">
       {tag}
     </p>
@@ -22,12 +19,12 @@ const { images, alt, url, tag } = Astro.props;
 
 <style>
   #randomimage p {
-    transition: opacity 0.3s ease-in-out; <!-- 텍스트 투명도 전환 애니메이션 -->
-    opacity: 1; <!-- 기본 투명도 -->
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
   }
 
   #randomimage p:hover {
-    opacity: 0.5; <!-- 마우스 오버 시 텍스트 투명도 낮춤 -->
+    opacity: 0.5;
   }
 </style>
 <script src="../scripts/getrandomimage.js"></script>
