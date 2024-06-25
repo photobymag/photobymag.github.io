@@ -12,7 +12,7 @@ import partytown from '@astrojs/partytown';
 
 export default defineConfig({
   site: 'https://photoby.xyz', // 웹사이트의 URL을 지정합니다.
-  compressHTML: false, // HTML 파일 압축 여부를 설정합니다.
+  compressHTML: true, // HTML 파일 압축 여부를 설정합니다.
   image: {
     domains: ['', 'photoby.xyz', 'cdn.jsdelivr.net'], // 허용된 이미지 도메인을 지정합니다.
     service: {
