@@ -1,14 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # 'main' 브랜치로 푸시할 때마다 워크플로를 트리거합니다.
-  # 다른 브랜치 이름을 사용하시나요? `main`을 브랜치 이름으로 바꾸세요.
   push:
     branches: [main]
-  # GitHub의 Actions 탭에서 이 워크플로를 수동으로 실행할 수 있습니다
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -29,8 +25,21 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-
 
+      - name: Cache Astro build
+        uses: actions/cache@v3
+        with:
+          path: |
+            .astro
+            dist
+            .cache
+          key: ${{ runner.OS }}-astro-build-${{ hashFiles('src/**') }}
+          restore-keys: |
+            ${{ runner.OS }}-astro-build-
+
       - name: Install, build, and upload your site
         uses: withastro/action@v2
+        with:
+          path: . # 프로젝트 루트 디렉토리를 지정
 
   deploy:
     needs: build

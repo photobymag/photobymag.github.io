@@ -19,6 +19,7 @@ export default defineConfig({
       entrypoint: 'astro/assets/services/sharp', // 이미지 처리 서비스의 진입점을 지정합니다.
       config: {
         limitInputPixels: false, // 입력 이미지의 픽셀 제한 여부를 설정합니다.
+        cacheDir: './.cache/image',
       },
     },
   },
