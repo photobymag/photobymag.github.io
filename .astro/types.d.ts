@@ -144,10 +144,19 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"authors": {
-"baesisi.mdx": {
-	id: "baesisi.mdx";
-  slug: "baesisi";
+		"about": {
+"about.mdx": {
+	id: "about.mdx";
+  slug: "about";
+  body: string;
+  collection: "about";
+  data: any
+} & { render(): Render[".mdx"] };
+};
+"authors": {
+"snjnpark.mdx": {
+	id: "snjnpark.mdx";
+  slug: "snjnpark";
   body: string;
   collection: "authors";
   data: InferEntrySchema<"authors">
@@ -178,6 +187,13 @@ declare module 'astro:content' {
 "2024-06-19-alan-schaller.mdx": {
 	id: "2024-06-19-alan-schaller.mdx";
   slug: "alan-schaller";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
+"2024-06-24-gregory-crewdson.mdx": {
+	id: "2024-06-24-gregory-crewdson.mdx";
+  slug: "gregory-crewdson";
   body: string;
   collection: "magazine";
   data: InferEntrySchema<"magazine">
