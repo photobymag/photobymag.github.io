@@ -1,8 +1,11 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages with Image Caching
 
 on:
+  # 'main' 브랜치로 푸시할 때마다 워크플로를 트리거합니다.
+  # 다른 브랜치 이름을 사용하시나요? `main`을 브랜치 이름으로 바꾸세요.
   push:
     branches: [ main ]
+  # GitHub의 Actions 탭에서 이 워크플로를 수동으로 실행할 수 있습니다.
   workflow_dispatch:
 
 permissions:
@@ -16,29 +19,27 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-
-      - name: Cache dependencies
+      - name: Cache Astro dependencies and images
         uses: actions/cache@v3
         with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-
-
-      - name: Cache Astro build
-        uses: actions/cache@v3
-        with:
-          path: .astro
-          key: ${{ runner.OS }}-astro-build-${{ hashFiles('src/**/*.astro', 'src/**/*.mdx') }}
-          restore-keys: |
-            ${{ runner.OS }}-astro-build-
-
+          path: |
+            ~/.cache/astro
+            .cache/astro/images # 전체 이미지 캐싱을 위해 추가
+          key: ${{ runner.os }}-astro-${{ hashFiles('**/astro.config.mjs') }}
+          restore-keys: ${{ runner.os }}-astro-
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         # with:
-          # path: . # 저장소 내 Astro 프로젝트의 루트 위치입니다. (선택 사항)
-          # node-version: 20 # 사이트를 빌드하는 데 사용해야 하는 특정 버전의 Node입니다. 기본값은 20입니다. (선택 사항)
-          # package-manager: pnpm@latest # 종속성을 설치하고 사이트를 빌드하는 데 사용해야 하는 노드 패키지 관리자입니다. lockfile을 기반으로 자동으로 감지됩니다. (선택 사항)
+        # path: . # 저장소 내 Astro 프로젝트의 루트 위치입니다. (선택 사항)
+        # node-version: 20 # 사이트를 빌드하는 데 사용해야 하는 특정 버전의 Node입니다. 기본값은 20입니다. (선택 사항)
+        # package-manager: pnpm@latest # 종속성을 설치하고 사이트를 빌드하는 데 사용해야 하는 노드 패키지 관리자입니다. lockfile을 기반으로 자동으로 감지됩니다. (선택 사항)
+
+      - name: Upload cached images to GitHub Pages (optional)
+        if: steps.upload_site.outputs.success
+        uses: actions/upload-artifact@v3
+        with:
+          name: cached-images
+          path: .cache/astro/images
 
   deploy:
     needs: build
@@ -50,3 +51,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Download cached images from artifact (optional)
+        if: steps.deployment.outputs.success
+        uses: actions/download-artifact@v3
+        with:
+          name: cached-images
+          path: .cache/astro/images
+
