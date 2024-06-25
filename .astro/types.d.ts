@@ -198,6 +198,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-06-25-franck-bohbot.mdx": {
+	id: "2024-06-25-franck-bohbot.mdx";
+  slug: "franck-bohbot";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};

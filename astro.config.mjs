@@ -55,6 +55,7 @@ export default defineConfig({
   },
   experimental: {
     clientPrerender: true, // 클라이언트 사이드에서 미리 렌더링을 수행합니다.
+    contentCollectionCache: true,
     // directRenderScript: true // 주석 처리된 코드입니다.
   },
 });
