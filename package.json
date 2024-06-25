@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "postbuild": "pagefind --site dist",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "astro build && gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
