@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>photoby</title><description>Creatvie beyond picture</description><link>https://photoby.xyz/</link><language>ko-kr</language><item><title>초현실의 꿈을 현실로 만드는 사진 작가, 마리아 스바르보바</title><link>https://photoby.xyz/magazine/maria-svarbova/</link><guid isPermaLink="true">https://photoby.xyz/magazine/maria-svarbova/</guid><description>슬로바키아 출신 사진 작가 마리아 스바르보바는 독특한 시각과 표현 방식으로 국제적인 주목을 받는 사진 작가이다. 공산주의 시대 건축물과 공공 장소를 현대적인 감각으로 재해석하여 몽환적인 분위기를 연출하며, 인간 존재의 본질과 외로움, 고립감 같은 보편적인 주제를 다룬다. 2018년 핫셀블라드 마스터 아트 부문 1위 수상, 포브스 30세 이하 영향력 있는 30인 선정 등 수많은 명성을 얻으며 사진 예술의 새로운 가능성을 제시하는 작가로 자리 잡았다.</description><pubDate>Wed, 12 Jun 2024 09:24:19 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mariasvarbova.com/?utm_source=referral&amp;amp;utm_medium=website&amp;amp;utm_campign=photoby_xyz&quot;&gt;마리아 스바르보바&lt;/a&gt; (Mária Švarbová)슬로바키아 출신 사진 작가로, 독특한 현대적 미학과 정교한 구도로 잘 알려져 있다.&lt;/strong&gt;
+1988년 태어난 스바르보바는 2010년에 사진을 시작했으며, 그 후로 빠르게 국제적인 명성을 얻었다.
+그녀의 작품은 주로 미니멀리즘과 대칭성을 강조하며, 색상과 형태를 통해 강렬한 시각적 인상을 남긴다.
+스바르보바의 사진은 고요하고 몽환적인 분위기를 자아내며, 인물과 공간의 상호작용을 독특하게 표현한다.&lt;/p&gt;
+&lt;p&gt;스바르보바의 작품은 전 세계 여러 갤러리와 전시회에서 소개되었으며, 다양한 출판물과 매체에 실렸다.
+그녀의 사진은 또한 광고와 상업 프로젝트에도 활용되어 현대 예술의 중요한 부분으로 자리 잡았다.
+스바르보바는 특히 1960년대와 1970년대의 공공 수영장과 스포츠 시설을 배경으로 한 시리즈를 통해 많은 사랑을 받고 있다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;import MasonryLayout from &apos;../../components/Masonry.astro&apos;;&lt;/p&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_1.jpg&apos;,
+alt: &apos;swimming pool 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_2.jpg&apos;,
+alt: &apos;swimming pool 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_3.jpg&apos;,
+alt: &apos;swimming pool 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_4.jpg&apos;,
+alt: &apos;swimming pool 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_5.jpg&apos;,
+alt: &apos;swimming pool 5&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/swimming_pool_6.jpg&apos;,
+alt: &apos;swimming pool 6&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Swimming Pool&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;마리아 스바르보바의 가장 유명한 시리즈 중 하나인 &quot;Swimming Pool&quot;은 공공 수영장을 배경으로 한 사진들로 구성되어 있다.&lt;/strong&gt;
+이 시리즈는 2014년에 시작되었으며, 정교한 대칭성과 차분한 색조로 특징지어진다.
+스바르보바는 이 시리즈에서 인물들을 마치 조각상처럼 고정된 자세로 배치하여 시간의 흐름을 멈춘 듯한 느낌을 준다.
+이는 관객에게 일상적인 공간을 새롭게 바라보게 하는 독특한 경험을 제공한다.
+&quot;Swimming Pool&quot; 시리즈는 슬로바키아의 여러 오래된 수영장에서 촬영되었으며, 레트로한 분위기와 현대적인 미학이 조화를 이루고 있다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_1.jpg&apos;,
+alt: &apos;futuro retro 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_2.jpg&apos;,
+alt: &apos;futuro retro 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_3.jpg&apos;,
+alt: &apos;futuro retro 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_4.jpg&apos;,
+alt: &apos;futuro retro 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_5.jpg&apos;,
+alt: &apos;futuro retro 5&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_6.jpg&apos;,
+alt: &apos;futuro retro 6&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/maria-svarbova/futuro_retro_7.jpg&apos;,
+alt: &apos;futuro retro 7&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;futuro Retro&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;futuro Retro&quot;는 스바르보바의 또 다른 대표작 시리즈로, 미래지향적인 요소와 복고풍의 미학을 결합한 작품들로 구성되어 있다.&lt;/strong&gt;
+이 시리즈는 특히 건축물과 인테리어 디자인을 강조하며, 인간과 공간의 상호작용을 탐구한다.
+스바르보바는 미래적이면서도 낯익은 풍경을 창조하여, 관객에게 시간과 공간의 경계를 넘나드는 경험을 제공한다.
+&quot;Futuro Retro&quot; 시리즈는 독특한 색상 조합과 그래픽 요소를 통해 강렬한 시각적 인상을 남긴다.&lt;/p&gt;
+</content:encoded><author>snjnpark</author></item><item><title>현대 사진 예술의 거장, 안드레아스 거스키</title><link>https://photoby.xyz/magazine/andres-gursky/</link><guid isPermaLink="true">https://photoby.xyz/magazine/andres-gursky/</guid><description>안드레아스 거스키는 독일 출신의 현대 사진 작가로, 거대한 스케일과 세밀한 디테일로 유명하다. 그의 작품은 현대 사회의 풍경과 구조를 탐구하며, 디지털 편집 기술을 활용해 독특한 미학을 구현한다. 대표작으로는 &quot;Rhein II&quot;, &quot;99 Cent&quot;, &quot;Pyongyang&quot; 시리즈가 있다. 그는 현대 사진 예술의 새로운 지평을 열고 있다.</description><pubDate>Mon, 17 Jun 2024 06:44:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.andreasgursky.com/en/?utm_source=referral&amp;amp;utm_medium=website&amp;amp;utm_campign=photoby_xyz&quot;&gt;안드레아스 거스키&lt;/a&gt; (Andreas Gursky)는 독일 출신의 현대 사진 작가로, 거대한 규모와 세밀한 디테일로 가득 찬 작품들로 널리 알려져 있다.&lt;/strong&gt;
+1955년 라이프치히에서 태어나 뒤셀도르프 예술 아카데미(Kunstakademie Düsseldorf)에서 베른트와 힐라 베허 부부에게 사진을 배웠다.
+거스키의 작품은 인간의 일상 생활을 방대한 스케일로 담아내며, 복잡한 사회 구조와 현대 사회의 풍경을 탐구한다.&lt;/p&gt;
+&lt;p&gt;거스키는 디지털 편집 기술을 활용하여 현실을 재구성하고, 사진 속 디테일을 극대화한다.
+이는 그의 사진이 단순한 기록이 아닌 예술 작품으로서의 가치를 지니게 한다.
+그의 대표적인 작품 중 하나인 &quot;Rhein II&quot;(1999)은 2011년 크리스티 경매에서 430만 달러에 판매되어 당대 최고가 사진 작품으로 기록되었다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;import MasonryLayout from &apos;../../components/Masonry.astro&apos;;&lt;/p&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/boxenstoopp_1.jpg&apos;,
+alt: &apos;boxenstoopp 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/boxenstoopp_2.jpg&apos;,
+alt: &apos;boxenstoopp 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/boxenstoopp_3.jpg&apos;,
+alt: &apos;boxenstoopp 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/boxenstoopp_4.jpg&apos;,
+alt: &apos;boxenstoopp 4&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;F1&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;거스키의 &quot;F1&quot; 시리즈는 포뮬러 원(Formula 1) 레이싱을 주제로 한 작품들로, 스포츠의 속도감과 화려함을 포착한다.&lt;/strong&gt;
+이 시리즈는 레이싱 트랙과 그 주변의 광경을 방대한 스케일로 담아내며, 역동적인 스포츠의 에너지를 시각적으로 전달한다.
+특히 &quot;F1 Boxenstopp&quot; (2007)은 피트스탑의 순간을 포착하여 레이싱의 긴장감과 팀워크의 중요성을 강조한다.
+이 작품은 디테일한 편집을 통해 현장의 복잡한 움직임과 정교함을 생생하게 재현한다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/pyongyang_1.jpg&apos;,
+alt: &apos;Pyongyang 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/pyongyang_2.jpg&apos;,
+alt: &apos;Pyongyang 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/pyongyang_3.jpg&apos;,
+alt: &apos;Pyongyang 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/pyongyang_4.jpg&apos;,
+alt: &apos;Pyongyang 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/pyongyang_5.jpg&apos;,
+alt: &apos;Pyongyang 5&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Pyongyang&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;Pyongyang&quot; 시리즈는 북한의 집단체조 행사를 촬영한 작품들로, 체제 선전과 집단주의를 탐구한다.&lt;/strong&gt;
+이 시리즈는 대규모 인원이 일사불란하게 움직이는 장면을 담아내며, 북한의 정치적 이념과 사회적 구조를 시각적으로 드러낸다.
+&quot;Pyongyang IV&quot;(2007)는 그 중에서도 가장 주목받는 작품으로, 엄청난 규모의 집단체조의 웅장함과 그 이면의 사회적 메시지를 전달한다.
+이 시리즈는 거스키의 독특한 시각과 기술을 통해 북한 사회의 일면을 보는 이에게 선보인다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/99cent_1.jpg&apos;,
+alt: &apos;99cent 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/99cent_2.jpg&apos;,
+alt: &apos;99cent 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andres-gursky/99cent_3.jpg&apos;,
+alt: &apos;99cent 3&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;99 cent&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;99 Cent&quot; 시리즈는 슈퍼마켓 내부를 주제로 한 작품들로, 현대 소비 사회를 날카롭게 비판한다.&lt;/strong&gt;
+이 시리즈는 다양한 상품들이 빼곡히 진열된 슈퍼마켓의 내부를 촬영하여, 소비문화의 과잉과 인간의 욕망을 시각적으로 표현한다.
+특히 &quot;99 Cent II Diptychon&quot;(2001)은 화려한 색상과 복잡한 디테일로 시선을 사로잡는다.
+거스키는 이 작품을 통해 소비의 미학과 그 이면에 숨겨진 사회적 메시지를 동시에 전달한다.&lt;/p&gt;
+</content:encoded><author>snjnpark</author></item><item><title>색채로 이야기하는 감정, 안도니 베리스타인</title><link>https://photoby.xyz/magazine/andoni-beristain/</link><guid isPermaLink="true">https://photoby.xyz/magazine/andoni-beristain/</guid><description>안도니 베리스타인은 바스크 출신의 사진 작가로, 감정과 이야기를 색채와 조명으로 표현한다. 그의 대표작인 Pieza Redonda, Pieza Rota, Pieza Madre는 체중, 질병, 사랑과 상실을 다루며, 독창적이고 감동적인 시각적 예술을 제공한다.</description><pubDate>Tue, 18 Jun 2024 07:57:41 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://andoniberistain.com/?utm_source=referral&amp;amp;utm_medium=website&amp;amp;utm_campign=photoby_xyz&quot;&gt;안도니 베리스타인&lt;/a&gt; (Andoni Beristain) 은 바스크 출신의 사진 작가이자 아트 디렉터, 그래픽 디자이너로, 1989년 스페인 북부의 작은 마을에서 태어났다.&lt;/strong&gt;
+어릴 적부터 그는 형상과 색채에 매료되어 세상을 관찰하고, 세상 속에서 자신만의 자리를 찾기 위해 노력해왔다.&lt;/p&gt;
+&lt;p&gt;지난 8년 동안 그는 Kenzo, Louis Vuitton, Braun, Adobe 등 여러 유명 브랜드와 협업하며 국제적인 매거진과 전시회에 그의 작품을 소개해왔다.
+베리스타인은 사진을 통해 자신의 이야기, 인생의 변화, 정치적 입장과 걱정을 표현하며, 대규모 야외 정물 사진과 세심하게 기획된 스튜디오 작업을 결합한 독특한 스타일을 구축했다.&lt;/p&gt;
+&lt;p&gt;베리스타인의 예술적 여정은 &quot;Pieza Redonda&quot;에서 시작되었으며, 이 작품은 체중, 비만, 그리고 사이즈에 대한 사회적 압박을 다루었다.
+이어 &quot;Pieza Rota&quot;에서는 질병, 암, 낙인을 중심 주제로 다루었고, &quot;Pieza Madre&quot;에서는 무조건적인 사랑, 상실, 죽음에 대한 경의를 표했다.
+그의 주제는 다소 어둡지만, 삶에 대한 밝고 대담하며 낙관적인 그의 관점을 볼 수 있다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;import MasonryLayout from &apos;../../components/Masonry.astro&apos;;&lt;/p&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_redonda_1.jpg&apos;,
+alt: &apos;Pieza Redonda 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_redonda_2.jpg&apos;,
+alt: &apos;Pieza Redonda 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_redonda_3.jpg&apos;,
+alt: &apos;Pieza Redonda 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_redonda_4.jpg&apos;,
+alt: &apos;Pieza Redonda 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_redonda_5.jpg&apos;,
+alt: &apos;Pieza Redonda 5&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Pieza Redonda&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;Pieza Redonda&quot;는 안도니 베리스타인의 첫 번째 주요 작품 시리즈로, 체중과 비만, 그리고 사이즈에 대한 사회적 압박을 다루고 있다.&lt;/strong&gt;
+이 시리즈는 신체 이미지와 관련된 사회적 기준에 대한 도전을 통해, 관객이 자기 자신을 수용하고, 그 자체로 아름다움을 찾을 수 있도록 격려한다.
+밝고 대담한 색채와 독특한 조명 기법을 사용하여, 그는 관객의 시선을 끌고 메시지를 전달한다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_rota_1.jpg&apos;,
+alt: &apos;Pieza Rota 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_rota_2.jpg&apos;,
+alt: &apos;Pieza Rota 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_rota_3.jpg&apos;,
+alt: &apos;Pieza Rota 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_rota_4.jpg&apos;,
+alt: &apos;Pieza Rota 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_rota_5.jpg&apos;,
+alt: &apos;Pieza Rota 5&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Pieza Rota&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;Pieza Rota&quot;는 질병과 암, 그리고 그에 따르는 사회적 낙인을 중심 주제로 한 작품이다.&lt;/strong&gt;
+베리스타인은 이 시리즈를 통해 질병을 겪는 사람들의 심리적, 감정적 상태를 시각적으로 표현하고자 했다.
+그의 사진은 병의 현실을 직시하면서도, 동시에 희망과 치유의 메시지를 담고 있다.
+이 작품은 사회적 낙인과 싸우며, 질병을 극복하는 사람들에게 격려와 위로를 전달한다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_1.jpg&apos;,
+alt: &apos;Pieza Madre 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_2.jpg&apos;,
+alt: &apos;Pieza Madre 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_3.jpg&apos;,
+alt: &apos;Pieza Madre 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_4.jpg&apos;,
+alt: &apos;Pieza Madre 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_5.jpg&apos;,
+alt: &apos;Pieza Madre 5&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_6.jpg&apos;,
+alt: &apos;Pieza Madre 6&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/andoni-beristain/pieza_madre_7.jpg&apos;,
+alt: &apos;Pieza Madre 7&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Pieza Madre&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&quot;Pieza Madre&quot;는 무조건적인 사랑과 상실, 죽음을 주제로 한 시리즈이다.&lt;/strong&gt;
+이 작품은 어머니에 대한 경의를 표하며, 사랑과 희생, 그리고 상실의 감정을 시각적으로 표현한다.
+베리스타인은 이 시리즈를 통해 삶과 죽음의 경계를 탐구하며, 관객에게 감정적인 깊이를 전달한다.
+강렬한 색채와 정교한 구성을 통해, 그는 사랑과 상실의 복잡한 감정을 포착한다.&lt;/p&gt;
+</content:encoded><author>snjnpark</author></item><item><title>흑백 사진의 대가, 앨런 샬러</title><link>https://photoby.xyz/magazine/alan-schaller/</link><guid isPermaLink="true">https://photoby.xyz/magazine/alan-schaller/</guid><description>앨런 샬러는 런던 기반의 흑백 사진작가로, 인간의 감성, 현대 사회의 복잡성, 일상의 추상적이고 초현실적인 요소들을 탐구한다. 그의 대표작 &apos;Metropolis&apos;는 도시의 복잡성과 고독을, &apos;Manhattan&apos;은 뉴욕의 에너지와 고독을, &apos;Winging It&apos;은 도심 속 새들의 유머와 경이로움을 포착한다.</description><pubDate>Wed, 19 Jun 2024 05:41:45 GMT</pubDate><content:encoded>&lt;p&gt;import MasonryLayout from &apos;../../components/Masonry.astro&apos;;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://alanschaller.com/?utm_source=referral&amp;amp;utm_medium=website&amp;amp;utm_campign=photoby_xyz&quot;&gt;앨런 샬러&lt;/a&gt; (Alan Schaller)는 런던을 기반으로 활동하는 사진작가로, 흑백 사진 예술에 있어서 독창적인 시각과 기술로 널리 알려져 있다.&lt;/strong&gt;
+그의 작품은 대개 인간의 감성, 현시대의 복잡다단함, 평상시 삶에서의 추상적이면서도 초현실적인 측면들을 고찰한다.
+그는 Leica 카메라의 열렬한 애호가로, 그의 작품 대부분은 이 카메라로 촬영되었다.&lt;/p&gt;
+&lt;p&gt;앨런 샬러의 작업은 강력한 콘트라스트와 정교한 구도로 특징지어지며, 이를 통해 피사체의 감정과 분위기를 극대화한다.
+그는 또한 다양한 인물 사진을 통해 인간의 내면과 외면을 탐구하며, 사회적 이슈와 일상 속의 다양한 모습을 포착하는데 주력하고 있다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_1.jpg&apos;,
+alt: &apos;metropolis 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_2.jpg&apos;,
+alt: &apos;metropolis 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_3.jpg&apos;,
+alt: &apos;metropolis 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_4.jpg&apos;,
+alt: &apos;metropolis 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_5.jpg&apos;,
+alt: &apos;metropolis 5&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/metropolis_6.jpg&apos;,
+alt: &apos;metropolis 6&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Metropolis&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Metropolis 시리즈는 현대 도시의 복잡성과 아름다움을 흑백으로 표현한 작품이다.&lt;/strong&gt;
+이 시리즈는 대도시의 건축물, 사람들, 그리고 그 속에서 벌어지는 다양한 이야기들을 강렬한 대비와 정교한 구도를 통해 담아냈다.&lt;/p&gt;
+&lt;p&gt;그는 이 시리즈를 통해 도시의 생동감과 동시에 그 속에 숨어있는 고독감을 표현하고 있다.
+도시의 혼잡한 삶과 그 속에서의 개인의 순간들을 동시에 포착하여, 도시의 복합적인 성격을 아름답게 드러낸다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_1.jpg&apos;,
+alt: &apos;manhattan 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_2.jpg&apos;,
+alt: &apos;manhattan 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_3.jpg&apos;,
+alt: &apos;manhattan 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_4.jpg&apos;,
+alt: &apos;manhattan 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_5.jpg&apos;,
+alt: &apos;manhattan 5&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/manhattan_6.jpg&apos;,
+alt: &apos;manhattan 6&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Manhattan&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Manhattan 시리즈는 뉴욕의 다채로운 풍경과 사람들을 흑백 사진으로 담아낸 작품이다.&lt;/strong&gt;
+작품은 도시의 상징적인 건축물과 거리의 장면들을 포착하여, 뉴욕의 독특한 에너지를 표현한다.
+특히, 그는 도시의 구조와 사람들 간의 상호작용을 예리하게 관찰하여, 도시의 복잡성과 그 속에서의 인간의 모습을 생동감 있게 담아냈다.
+작품 속 뉴욕의 화려함과 동시에 그 이면의 고독과 쓸쓸함을 묘사하며, 보는 이에게 강렬한 인상을 남긴다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/wingingit_1.jpg&apos;,
+alt: &apos;winging it 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/wingingit_2.jpg&apos;,
+alt: &apos;winging it 2&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/wingingit_3.jpg&apos;,
+alt: &apos;winging it 3&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/wingingit_4.jpg&apos;,
+alt: &apos;winging it 4&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/alan-schaller/wingingit_5.jpg&apos;,
+alt: &apos;winging it 5&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Winging It&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Winging It 시리즈는 비둘기와 같은 도심 속 새들을 주요 피사체로 하여, 그들의 독특한 행동과 순간들을 포착한 작품이다.&lt;/strong&gt;
+그는 도시 환경 속에서 새들이 보여주는 예상치 못한 순간들을 섬세하게 잡아내어, 일상의 순간 속에서 발견할 수 있는 유머를 강조한다.
+작품은 인간과 자연의 교차점을 탐구하며, 도시 속에서 자연이 어떻게 공존하는지를 새롭게 조명한다.&lt;/p&gt;
+</content:encoded><author>snjnpark</author></item><item><title>그레고리 크루드슨, 영화 같은 일상 속 초현실을 담는 거장</title><link>https://photoby.xyz/magazine/gregory-crewdson/</link><guid isPermaLink="true">https://photoby.xyz/magazine/gregory-crewdson/</guid><description>그레고리 크루드슨은 극적인 연출과 초현실적 요소로 현대인의 불안과 고독을 표현하는 사진 작가로, 영화적인 조명과 디테일한 연출을 통해 한 편의 영화 장면처럼 작품을 구성한다. 대표작으로 &apos;Twilight&apos;와 &apos;An Eclipse of Moths&apos; 시리즈가 있다.</description><pubDate>Mon, 24 Jun 2024 08:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gagosian.com/artists/gregory-crewdson/?utm_source=referral&amp;amp;utm_medium=website&amp;amp;utm_campign=photoby_xyz&quot;&gt;그레고리 크루드슨&lt;/a&gt; (Gregory Crewdson)은 1962년 브루클린에서 태어난 크루드슨은 예일 대학교에서 사진학을 공부하며 자신의 독특한 스타일을 발전시켰다.&lt;/strong&gt;
+그의 작품은 영화와 연극에서 영감을 받아, 극적인 연출과 정교한 세트 디자인으로 유명하며, 주로 미국 중산층의 일상 속에서 불안과 초현실적인 요소를 조명하는 데 중점을 둔다.
+작품 속 일상적인 풍경을 통해 인간의 심리적 깊이를 탐구하며, 보는 이로 하여금 상상의 나래를 펼치게 한다.&lt;/p&gt;
+&lt;p&gt;크루드슨은 영화적인 조명과 세밀한 연출을 통해 한 장의 사진을 마치 한 편의 영화 장면처럼 구성한다.
+이러한 그의 작업 방식은 데이비드 린치와 알프레드 히치콕 같은 영화 감독들의 영향을 받았다.
+크루드슨의 사진은 엄청난 규모와 디테일로 인해 한 장을 완성하는 데 수개월이 걸리기도 한다.
+그의 작품은 뉴욕 현대미술관(MoMA), 휘트니 미술관(Whitney Museum of American Art), 구겐하임 미술관(Solomon R. Guggenheim Museum) 등 세계적인 미술관에 소장되어 있다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;import MasonryLayout from &apos;../../components/Masonry.astro&apos;;&lt;/p&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_1.jpg&apos;,
+alt: &apos;Twilight 1&apos;,
+},
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_2.jpg&apos;,
+alt: &apos;Twilight 2&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_3.jpg&apos;,
+alt: &apos;Twilight 3&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_4.jpg&apos;,
+alt: &apos;Twilight 4&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_5.jpg&apos;,
+alt: &apos;Twilight 5&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_6.jpg&apos;,
+alt: &apos;Twilight 6&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/twilight_7.jpg&apos;,
+alt: &apos;Twilight 7&apos;,
+},
+]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Twilight (1998-2002)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&apos;Twilight&apos; 시리즈는 하루가 저물고 어둠이 찾아오는 순간의 신비롭고 불가사의한 분위기를 포착한 작품들로 구성되어 있다.&lt;/strong&gt;
+이 시리즈에서는 일상적인 미국의 교외 풍경이 주요 배경이 되며, 이 평범한 장소들을 극적인 조명과 연출로 변모시켜 초현실적인 느낌을 부여한다.
+특히 황혼의 부드러운 빛과 인공 조명의 대비가 두드러지며, 이를 통해 일상과 비일상의 경계를 모호하게 만든다.
+또한 화면 속 인물들은 대부분 고립되어 있거나 무언가에 몰두한 모습으로 표현되어, 현대 사회의 소외감과 고독을 암시한다.
+크루드슨은 이 시리즈를 통해 영화적 기법을 사진에 도입하여, 정지된 이미지 속에서도 이야기가 진행되는 듯한 긴장감을 만들어낸다.
+&apos;Twilight&apos; 시리즈는 크루드슨의 미장센과 이야기를 전달하는 능력을 잘 보여주는 작품이다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;MasonryLayout
+images={[
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/an_eclipse_of_moths_1.jpg&apos;,
+alt: &apos;An Eclipse of Moths 1&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/an_eclipse_of_moths_2.jpg&apos;,
+alt: &apos;An Eclipse of Moths 2&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/an_eclipse_of_moths_3.jpg&apos;,
+alt: &apos;An Eclipse of Moths 3&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/an_eclipse_of_moths_4.jpg&apos;,
+alt: &apos;An Eclipse of Moths 4&apos;,
+},&lt;br /&gt;
+{
+src: &apos;https://cdn.jsdelivr.net/gh/photobymag/photobymag.github.io@main/src/images/gregory-crewdson/an_eclipse_of_moths_5.jpg&apos;,
+alt: &apos;An Eclipse of Moths 5&apos;,
+},&lt;/p&gt;
+&lt;p&gt;]}
+/&amp;gt;&lt;/p&gt;
+&lt;h2&gt;An Eclipse of Moths (2018-2019)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&apos;An Eclipse of Moths&apos; 시리즈는 미국 사회의 어두운 측면과 현대인의 고독을 주제로 한 작품들로 구성되어 있다.&lt;/strong&gt;
+이 시리즈는 주로 버려진 산업 지역과 낙후된 도시 풍경을 배경으로 현대인의 소외와 상실감을 강렬하게 표현하며, 인물의 고독한 분위기를 극적으로 드러낸다.
+크루드슨은 더욱 강렬한 색채와 극적인 구도를 사용하여, 현실과 비현실의 경계를 더욱 모호하게 만든다.
+특히 황폐한 도시 풍경 속에서 나방들이 빛에 이끌리듯 모여드는 이미지를 통해, 희망을 찾아 헤매는 현대인의 모습을 상징적으로 표현한다.
+또한 이 시리즈에서는 인물들의 표정과 자세가 더욱 세밀하게 포착되어, 그들의 내면적 갈등과 사회적 고립감을 더욱 생생하게 전달한다.
+크루드슨은 이 작품들을 통해 현대 사회의 문제점을 직접적으로 고발하기보다는, 시각적 은유를 통해 관객들이 스스로 생각해볼 수 있는 여지를 남긴다.&lt;/p&gt;
+</content:encoded><author>snjnpark</author></item></channel></rss>
