@@ -205,6 +205,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-06-26-gray-malin.mdx": {
+	id: "2024-06-26-gray-malin.mdx";
+  slug: "gray-malin";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
