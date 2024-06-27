@@ -205,6 +205,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-06-27-sarah-pickering.mdx": {
+	id: "2024-06-27-sarah-pickering.mdx";
+  slug: "sarah-pickering";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
