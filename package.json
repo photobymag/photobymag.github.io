@@ -39,7 +39,6 @@
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.10",
-    "@vite-pwa/astro": "^0.4.0",
     "pagefind": "^1.0.4"
   }
 }
