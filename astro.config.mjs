@@ -8,6 +8,8 @@ import markdoc from '@astrojs/markdoc';
 import remarkGfm from 'remark-gfm';
 import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
 import partytown from '@astrojs/partytown';
+import AstroPWA from '@vite-pwa/astro'
+
 // 사용할 Astro 통합 모듈들을 가져옵니다.
 
 export default defineConfig({
@@ -23,6 +25,8 @@ export default defineConfig({
     },
   },
   integrations: [
+    AstroPWA(
+    ),
     partytown({
       // 서드파티 스크립트를 웹 워커로 분리하여 메인 스레드 성능을 개선합니다.
       config: {
