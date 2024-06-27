@@ -25,8 +25,6 @@ export default defineConfig({
     },
   },
   integrations: [
-    AstroPWA(
-    ),
     partytown({
       // 서드파티 스크립트를 웹 워커로 분리하여 메인 스레드 성능을 개선합니다.
       config: {
