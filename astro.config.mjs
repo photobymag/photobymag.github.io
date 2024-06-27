@@ -8,7 +8,6 @@ import markdoc from '@astrojs/markdoc';
 import remarkGfm from 'remark-gfm';
 import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
 import partytown from '@astrojs/partytown';
-import AstroPWA from '@vite-pwa/astro'
 
 // 사용할 Astro 통합 모듈들을 가져옵니다.
 
