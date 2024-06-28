@@ -8,6 +8,7 @@ import markdoc from '@astrojs/markdoc';
 import remarkGfm from 'remark-gfm';
 import { remarkReadingTime } from './src/scripts/remark-reading-time.mjs';
 import partytown from '@astrojs/partytown';
+import deno from '@astrojs/deno';
 
 // 사용할 Astro 통합 모듈들을 가져옵니다.
 import vercel from "@astrojs/vercel/serverless";
@@ -65,6 +66,7 @@ export default defineConfig({
     contentCollectionCache: true
     // directRenderScript: true // 주석 처리된 코드입니다.
   },
-  output: "static",
+  output: 'server',
+  adapter: deno(),
 
 });
