@@ -65,6 +65,6 @@ export default defineConfig({
     contentCollectionCache: true
     // directRenderScript: true // 주석 처리된 코드입니다.
   },
-  output: "server",
-  adapter: vercel()
+  output: "static",
+
 });
