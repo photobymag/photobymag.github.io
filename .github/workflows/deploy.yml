@@ -1,29 +1,51 @@
 name: Deploy
-on: [push]
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
 
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+
     permissions:
-      id-token: write # Deno Deploy를 통한 인증에 필요
-      contents: read # 저장소를 복제하는 데 필요
+      id-token: write # Needed for auth with Deno Deploy
+      contents: read # Needed to clone the repository
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      # npm을 사용하지 않나요? `npm ci`를 `yarn install` 또는 `pnpm i`로 변경하세요.
-      - name: Install dependencies
-        run: npm ci
+      - name: Install Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
 
-      # npm을 사용하지 않나요? `npm run build`를 `yarn build` 또는 `pnpm run build`로 변경하세요.
-      - name: Build Astro
-        run: npm run build
+      # Use oven-sh/setup-bun to install Bun
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      # Cache Bun dependencies
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Install dependencies and build with Bun
+        run: |
+          bun install
+          bun run build
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: photoby-xyz # TODO: Deno Deploy 프로젝트 이름으로 교체
-          entrypoint: server/entry.mjs
-          root: dist
+            project: photoby-xyz # TODO: Deno Deploy 프로젝트 이름으로 교체
+            entrypoint: server/entry.mjs
+            root: dist
