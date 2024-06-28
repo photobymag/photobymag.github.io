@@ -43,7 +43,7 @@ jobs:
 
       # npm을 사용하지 않나요? `npm ci`를 `yarn install` 또는 `pnpm i`로 변경하세요.
       - name: Install dependencies
-        run: bun ci
+        run: npm ci
 
       # npm을 사용하지 않나요? `npm run build`를 `yarn build` 또는 `pnpm run build`로 변경하세요.
       - name: Build Astro
