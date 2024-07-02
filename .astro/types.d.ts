@@ -153,8 +153,14 @@ declare module 'astro:content' {
   data: any
 } & { render(): Render[".mdx"] };
 };
-"authors": {
-};
+"authors": Record<string, {
+  id: string;
+  slug: string;
+  body: string;
+  collection: "authors";
+  data: InferEntrySchema<"authors">;
+  render(): Render[".md"];
+}>;
 "magazine": {
 "2024-06-12-maria-svarbova.mdx": {
 	id: "2024-06-12-maria-svarbova.mdx";

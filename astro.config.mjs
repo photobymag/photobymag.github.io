@@ -18,7 +18,7 @@ export default defineConfig({
   compressHTML: true,
   // HTML 파일 압축 여부를 설정합니다.
   image: {
-    domains: ['', 'photoby.xyz', 'cdn.jsdelivr.net'],
+    domains: ['photoby.xyz', 'cdn.jsdelivr.net'],
     // 허용된 이미지 도메인을 지정합니다.
     service: {
       entrypoint: 'astro/assets/services/sharp',
