@@ -218,6 +218,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-07-02-todd-hido.mdx": {
+	id: "2024-07-02-todd-hido.mdx";
+  slug: "todd-hido";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
