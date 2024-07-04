@@ -225,6 +225,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-07-04-edward-burtynsky.mdx": {
+	id: "2024-07-04-edward-burtynsky.mdx";
+  slug: "edward-burtynsky";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
