@@ -232,6 +232,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-07-10-natan-dvir.mdx": {
+	id: "2024-07-10-natan-dvir.mdx";
+  slug: "natan-dvir";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
