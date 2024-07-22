@@ -239,6 +239,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-07-19-christy-lee-rogers.mdx": {
+	id: "2024-07-19-christy-lee-rogers.mdx";
+  slug: "christy-lee-rogers";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
