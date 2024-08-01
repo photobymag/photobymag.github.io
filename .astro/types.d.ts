@@ -246,6 +246,13 @@ declare module 'astro:content' {
   collection: "magazine";
   data: InferEntrySchema<"magazine">
 } & { render(): Render[".mdx"] };
+"2024-07-31-michael-wolf.mdx": {
+	id: "2024-07-31-michael-wolf.mdx";
+  slug: "michael-wolf";
+  body: string;
+  collection: "magazine";
+  data: InferEntrySchema<"magazine">
+} & { render(): Render[".mdx"] };
 };
 
 	};
